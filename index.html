@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee & Cake</title>
+</head>
+<body>
+    <p align="center"> 
+        <!-- We cannot center align the image tag, but we can align a p-tag. 
+            Hence we are putting the image inside the paragraph-->
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/17/54/89/b5/photo1jpg.jpg" class="Cake" alt="Cake" width="300">
+    </p>
+    <hr>
+    <h1 align="center">
+        Coffee &amp; Cake Bakery
+        <!--In HTML, attributes are #PCDATA meaning they're parsed. 
+            This means you can use character entities in the attributes. 
+            Using & by itself is wrong and if not for lenient browsers and the fact that this is HTML not XHTML, would break the parsing. 
+            Just escape it as &amp; and everything would be fine.-->
+    </h1>
+    <hr>
+    <h2>
+        About Us:
+    </h2>
+    <p>
+        We’ve been baking and brewing for over 10 years already! Anyone who’s tried our delicious cakes and our signature coffee at least once is now our loyal customer.
+    </p>
+    <p>
+        Visit our fabulous little coffee shop, and each hour spent will leave a lasting impression for the rest of your week.
+    </p>
+    <h2>
+        Our Menu:
+    </h2>
+    <ul>
+        <li>Desserts
+          <ul>
+            <li>Cupcakes
+              <ul>
+                <li>Chocolate</li>
+                <li>Vanilla</li>
+                <li><a href="redvelvet.html">Red Velvet</a></li>
+              </ul>
+            </li>
+            <li><a href="sweets.html">Sweets</a></li>
+          </ul>
+        </li>
+        <li>Coffee
+          <ul>
+            <li>Americano</li>
+            <li>Espresso</li>
+            <li>Cappuccino</li>
+          </ul>
+        </li>
+      </ul>
+    <h2>
+        Place an Order:
+    </h2>      
+    <ol>
+        <li>Select the cake that you like.</li>
+        <li>Call (000) 000-0000 and order your cake.</li>
+    </ol>
+    <p><a href="contactus.html">Contact Us</a></p>
+</body>
+</html>

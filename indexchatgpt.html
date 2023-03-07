@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee & Cake</title>
+    <style>
+        /* Center the image and the heading */
+        img.Cake {
+            display: block;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p> 
+        <!-- We cannot center align the image tag, but we can align a p-tag. 
+            Hence we are putting the image inside the paragraph-->
+            <img src="https://cdn.pixabay.com/photo/2017/12/29/11/09/cake-3044262_1280.jpg" class="Cake" alt="Cake" width="600">
+    </p>
+    <hr>
+    <h1>
+        Coffee &amp; Cake
+        <!--In HTML, attributes are #PCDATA meaning they're parsed. 
+            This means you can use character entities in the attributes. 
+            Using & by itself is wrong and if not for lenient browsers and the fact that this is HTML not XHTML, would break the parsing. 
+            Just escape it as &amp; and everything would be fine.-->
+    </h1>
+    <hr>
+</body>
+</html>
